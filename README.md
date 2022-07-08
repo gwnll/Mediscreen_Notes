@@ -4,7 +4,7 @@
 > Mediscreen specializes in detecting risk factors for disease. Our screenings using predictive analysis of patient populations at an affordable cost.
 ***
 :warning: ***4 modules are required in order for the Mediscreen application to function :***
-- Front-end app
+- [Front-end app](https://github.com/gwnll/Mediscreen_Front)
 - [Patients Micro-Service](https://github.com/gwnll/Mediscreen_Patients)
 - Notes Micro-Service
 - [Reports Micro-Service](https://github.com/gwnll/Mediscreen_Reports)
@@ -32,4 +32,4 @@ Mediscreen_Notes is a REST micro-service connected to a MongoDB database. The us
 ![API REST Endpoints](https://github.com/gwnll/Mediscreen_Notes/blob/main/note-controller.jpg)
 
 ### Tests - JaCoCo
-![Tests - JaCoCo](https://github.com/gwnll/Mediscreen_Patients/blob/main/jacoco-notes.jpg)
+![Tests - JaCoCo](https://github.com/gwnll/Mediscreen_Notes/blob/main/jacoco-notes.jpg)
