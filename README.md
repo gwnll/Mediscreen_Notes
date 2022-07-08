@@ -13,19 +13,23 @@
 Mediscreen_Notes is a REST micro-service connected to a MongoDB database. The user is able to read, write, edit and delete notes about patients. Those notes, alongside with the patient's informations, can be used to generate reports in the reports micro-service
 
 ### Technologies
-- Java 1.8 JDK (Java 8)
-- Maven
-- Spring 2.1.6
+- Java 11
+- Maven 3.8.1
+- Spring 2.6.7
 - Docker
-- MySQL
+- Postgre
+- MongoDB
 
 ### Deployment with Docker
-1) Build the 3 different jar
-2) Create the 3 different images with docker ``build -t (image_name)``
-3) 
+1) Build the jar (you can use ``mvn install``)
+2) Create the image of the notes micro-service with ``build -t mediscreen-notes``
+3) Once the images of the other micro-services are created, you can use ``docker compose up`` in the front app.
 
 ### API Documentation
 - Swagger 3 : http://localhost:8082/swagger-ui/index.html#/
 
 ### API REST Endpoints
 ![API REST Endpoints](https://github.com/gwnll/Mediscreen_Notes/blob/main/note-controller.jpg)
+
+### Tests - JaCoCo
+![Tests - JaCoCo](https://github.com/gwnll/Mediscreen_Patients/blob/main/jacoco-notes.jpg)
